@@ -21,8 +21,7 @@ namespace Porygon
         }
 
         private void pictureBox_Click(object sender, EventArgs e)
-        {
-            
+        { 
             int rand;
             do
             { rand = _random.Next(0,16);}
@@ -32,16 +31,16 @@ namespace Porygon
             
             switch(_currentIndex)
             {
-                case 0: this.pictureBox.Image = Resources.active; break;
-                case 1: this.pictureBox.Image = Resources.artificial; break;
-                case 2: this.pictureBox.Image = Resources.backgroundmove; break;
-                case 3: this.pictureBox.Image = Resources.classic; break;
-                case 4: this.pictureBox.Image = Resources.classy; break;
-                case 5: this.pictureBox.Image = Resources.code; break;
-                case 6: this.pictureBox.Image = Resources.freakout; break;
-                case 7: this.pictureBox.Image = Resources.fuzz; break;
-                case 8: this.pictureBox.Image = Resources.glitch; break;
-                case 9: this.pictureBox.Image = Resources.happy; break;
+                case 0:  this.pictureBox.Image = Resources.active; break;
+                case 1:  this.pictureBox.Image = Resources.artificial; break;
+                case 2:  this.pictureBox.Image = Resources.backgroundmove; break;
+                case 3:  this.pictureBox.Image = Resources.classic; break;
+                case 4:  this.pictureBox.Image = Resources.classy; break;
+                case 5:  this.pictureBox.Image = Resources.code; break;
+                case 6:  this.pictureBox.Image = Resources.freakout; break;
+                case 7:  this.pictureBox.Image = Resources.fuzz; break;
+                case 8:  this.pictureBox.Image = Resources.glitch; break;
+                case 9:  this.pictureBox.Image = Resources.happy; break;
                 case 10: this.pictureBox.Image = Resources.hyper; break;
                 case 11: this.pictureBox.Image = Resources.lofi; break;
                 case 12: this.pictureBox.Image = Resources.matrix; break;
